@@ -3,6 +3,16 @@ import 'package:flutter/material.dart';
 
 String icBackground = "assets/images/ic_background.png";
 String icLogo = "assets/images/ic_logo.png";
+String icNotification="assets/images/ic_notification.png";
+String icArrowBack="assets/images/ic_arrow_back.png";
+String icArrowDown="assets/images/ic_arrow_down.png";
+String icClose="assets/images/ic_close_button.png";
+String icEdit="assets/images/ic_edit_button.png";
+String icCalender="assets/images/ic_calender.png";
+String icPlus="assets/images/ic_plus.png";
+String icMinus="assets/images/ic_minus.png";
+String icSearch="assets/images/ic_search.png";
+String icArrowRight="assets/images/ic_arrow_right.png";
 
 //sizes
 double screenWidth(context) {

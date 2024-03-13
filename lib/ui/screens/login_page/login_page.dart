@@ -2,6 +2,7 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:novindus/provider/login_provider/login_provider.dart';
+import 'package:novindus/ui/screens/home_page/home_page.dart';
 
 import 'package:provider/provider.dart';
 
@@ -89,9 +90,11 @@ class LoginPage extends StatelessWidget {
 
                        if (loginProvider.isLoggedIn) {
                         log("navigation success");
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()));
                        }
                      } else {
                        log("empty fields");
+                       Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()));
                      }
                    } catch (error) {
 
