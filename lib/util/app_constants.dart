@@ -1,9 +1,8 @@
-
 //asset images
 import 'package:flutter/material.dart';
 
-String icBackground="assets/images/ic_background.png";
-String icLogo="assets/images/ic_logo.png";
+String icBackground = "assets/images/ic_background.png";
+String icLogo = "assets/images/ic_logo.png";
 
 //sizes
 double screenWidth(context) {
@@ -31,7 +30,6 @@ EdgeInsets commonBgPadding = const EdgeInsets.only(
   left: 15,
   right: 15,
 );
-
 
 // divider
 
@@ -66,4 +64,3 @@ Widget dividerW20() {
 Widget dividerH30() {
   return const SizedBox(height: 30);
 }
-
